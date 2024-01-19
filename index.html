@@ -465,6 +465,27 @@
             </li>
           </ul>
         </div>
+        <div>
+          <div class="footer-modal">
+            <form class="footer-form">
+              <label for="email-foot" class="footer-label">Subscribe</label>
+              <div class="footer-last-blok">
+                <input
+                  type="email"
+                  class="footer-input"
+                  name="email-foot"
+                  id="email-foot"
+                  placeholder="E-mail"
+                />
+                <button class="footer-btn" type="submit">
+                  Subscribe<svg width="24" height="24">
+                    <use href="./images/icons.svg#icon-frame"></use>
+                  </svg>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
     </footer>
     <!-- Modal window -->
@@ -472,7 +493,7 @@
       <div class="modal">
         <button class="modal-btn-icon" type="button">
           <svg class="modal-btn-icon-cross" width="8" height="8">
-            <use href="./images/icons.svg#icon-close-black-18dp"></use>
+            <use href="./images/icons.svg#icon-close-black-dp"></use>
           </svg>
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
@@ -504,15 +525,36 @@
               </svg>
             </div>
           </div>
-          <label class="modal-label">
-            Comment
-            <textarea
-              class="modal-texterea"
-              name="comment"
-              id="comment"
-              placeholder="Text input"
-            ></textarea>
-          </label>
+          <div class="modal-field-texterea">
+            <label class="modal-label" for="comment"
+              >Comment<textarea
+                class="modal-texterea"
+                name="comment"
+                id="comment"
+                placeholder="Text input"
+              ></textarea>
+            </label>
+          </div>
+          <div class="modal-field-check">
+            <input
+              type="checkbox"
+              name="modal-check"
+              id="modal-check"
+              class="check-input visually-hidden"
+            />
+            <label for="modal-check" class="check-text"
+              ><span>
+                <svg class="modal-icon-check" width="16" height="16">
+                  <use href="./images/icons.svg#icon-checkbox"></use>
+                </svg>
+                <svg class="modal-two-icon-check" width="16" height="16">
+                  <use href="./images/icons.svg#icon-property-one-click"></use>
+                </svg>
+              </span>
+              accept the terms and conditions of the
+              <a href="" class="check-link">Privacy Policy</a></label
+            >
+          </div>
           <button type="submit" class="modal-btn">Send</button>
         </form>
       </div>

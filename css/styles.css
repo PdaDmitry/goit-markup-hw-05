@@ -25,12 +25,6 @@ img{
     height: auto;
 }
 
-input,
-textarea,
-button{
-    font-family: inherit;
-}
-
 .container {
     width: 1158px;
     padding-left: 15px;
@@ -558,9 +552,9 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     gap: 24px;
 }
 
-.footer-last-blok-label{
+/* .footer-last-blok-label{
 
-}
+} */
 
 .footer-input {
     width: 264px;
@@ -789,13 +783,16 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 
-.check-text .span-icon{
+.check-input:focus+ .check-text .span-icon {
+    border-color: #4D5AE5;
+}
+
+.check-text{
    display: flex;
-   align-items: center;
-    margin-right: 8px;
-    
+   align-items: center;   
 }
 
 .modal-icon-check{
@@ -812,6 +809,8 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 
 .check-input:checked + .check-text .span-icon{
     background-color: #404BBF;
+    border: none;
+    fill: #F4F4FD;
 }
 
 .check-link{
@@ -841,3 +840,8 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* input,
+textarea,
+button {
+    font-family: inherit;
+} */

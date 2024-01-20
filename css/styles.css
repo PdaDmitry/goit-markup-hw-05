@@ -25,7 +25,9 @@ img{
     height: auto;
 }
 
-input {
+input,
+textarea,
+button{
     font-family: inherit;
 }
 

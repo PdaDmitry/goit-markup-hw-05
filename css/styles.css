@@ -804,7 +804,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     border: none;
 }
 
-.check-input:checked+.check-text .span-icon{
+.check-input:checked + .check-text .span-icon{
     background-color: #404BBF;
 }
 

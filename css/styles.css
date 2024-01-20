@@ -776,7 +776,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--LIGHT-SLATE, #8E8F99);
-    display: flex;
+    /* display: flex; */
     align-items: center;
 }
 
@@ -793,7 +793,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     margin-right: 8px;
 }
 
-.check-input:focus+ .check-text .span-icon {
+.check-input:focus + .check-text .span-icon {
     border-color: #4D5AE5;
 }
 

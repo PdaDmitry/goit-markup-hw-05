@@ -770,13 +770,12 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 }
 
 .check-text {
-    position: relative;
+    /* position: relative; */
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--LIGHT-SLATE, #8E8F99);
     display: flex;
-    /* display: inline-flex; */
     align-items: center;
 }
 

@@ -25,6 +25,10 @@ img{
     height: auto;
 }
 
+input {
+    font-family: inherit;
+}
+
 .container {
     width: 1158px;
     padding-left: 15px;
